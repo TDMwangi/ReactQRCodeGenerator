@@ -12,6 +12,8 @@ function App() {
       if (err) {
         return console.error(err);
       }
+
+      setQrcode(url);
     });
   };
 }
