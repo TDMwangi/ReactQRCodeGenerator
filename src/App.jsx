@@ -23,4 +23,11 @@ function App() {
     link.href = qrcode;
     link.click();
   };
+
+  return (
+    <div className="flex flex-col items-center justify-center h-screen">
+      <h1 className="text-3xl font-bold mb-8">QR Code Generator</h1>
+      <div className="flex flex-col items-center"></div>
+    </div>
+  );
 }
