@@ -27,7 +27,15 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <h1 className="text-3xl font-bold mb-8">QR Code Generator</h1>
-      <div className="flex flex-col items-center"></div>
+      <div className="flex flex-col items-center">
+        <div className="flex items-center">
+          <input
+            type="text"
+            placeholder="https://www.google.com"
+            value={url}
+          />
+        </div>
+      </div>
     </div>
   );
 }
