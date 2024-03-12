@@ -33,6 +33,11 @@ function App() {
             type="text"
             placeholder="https://www.google.com"
             value={url}
+            onChange={(event) => setUrl(event.target.value)}
+            className="border border-gray-400 rounded-l px-4 py-2 w-96"
+          />
+          <button
+            onClick={generateQRCode}
           />
         </div>
       </div>
