@@ -38,7 +38,10 @@ function App() {
           />
           <button
             onClick={generateQRCode}
-          />
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded-r px-4 py-2"
+          >
+            Generate
+          </button>
         </div>
       </div>
     </div>
