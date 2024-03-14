@@ -43,6 +43,12 @@ function App() {
             Generate
           </button>
         </div>
+        {qrcode && (
+          <div className="flex flex-col items-center mt-4">
+            <img
+              src={qrcode}
+              className="border border-gray-400 rounded-lg p-2"
+            />
       </div>
     </div>
   );
