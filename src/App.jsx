@@ -49,7 +49,7 @@ function App() {
               src={qrcode}
               className="border border-gray-400 rounded-lg p-2"
             />
-      </div>
-    </div>
-  );
-}
+            <button
+              onClick={downloadQRCode}
+              className="bg-red-500 hover:bg-red-700 text-white font-bold rounded px-4 py-2 mt-2"
+            >
