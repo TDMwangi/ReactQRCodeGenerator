@@ -53,3 +53,8 @@ function App() {
               onClick={downloadQRCode}
               className="bg-red-500 hover:bg-red-700 text-white font-bold rounded px-4 py-2 mt-2"
             >
+            Download
+          </button>
+        </div>
+      )}
+    </div>
